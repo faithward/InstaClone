@@ -30,13 +30,21 @@ body{
     background-color: white;
     width: 600px;
     height: 600px;
+    margin: auto;
 }
 
 
-.postTop{
-    display: flex;
+.postTop > *{
+    display: inline-flex;
 }
 
 .Date{
     float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    color: grey;
+}
+
+h3 {
+    padding-left: 15px;
 }
