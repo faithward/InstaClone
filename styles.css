@@ -1,19 +1,18 @@
-* {
-    border: red 1px;
-    border-style: dashed;
-}
+
 
 body{
     margin: auto;
-    background-color: black;
+    background-color: #d3d3d3;
     width: 800px;
+    font-family: 'Open Sans', sans-serif
 }
 
 #topWrapper {
     background-color: white;
-    text-align: center;
     margin-bottom: 30px;
+    width: 100%;
 }
+
 
 #mainWrapper {
     background-color: #d3d3d3;
@@ -28,14 +27,20 @@ body{
 
 .Post{
     background-color: white;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: auto;
     margin: auto;
+    overflow: auto;
 }
 
 
 .postTop > *{
     display: inline-flex;
+}
+
+.postTop {
+    height: 40px;
+    padding-bottom: 10px;
 }
 
 .Date{
@@ -47,4 +52,8 @@ body{
 
 h3 {
     padding-left: 15px;
+}
+
+p {
+    padding-left: 10px;
 }
