@@ -1,4 +1,42 @@
 * {
     border: red 1px;
+    border-style: dashed;
 }
 
+body{
+    margin: auto;
+    background-color: black;
+    width: 800px;
+}
+
+#topWrapper {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#mainWrapper {
+    background-color: #d3d3d3;
+    margin: auto;
+}
+
+#mainWrapper > .Post {
+    position: relative;
+    margin: auto;
+}
+
+
+.Post{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+}
+
+
+.postTop{
+    display: flex;
+}
+
+.Date{
+    float: right;
+}
